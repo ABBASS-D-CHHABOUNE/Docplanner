@@ -213,7 +213,113 @@ transform: skew(-20deg);
 
 
 
+/* World section */
+
+#world 
+{
+    background-color:#DFF8F7;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 3rem 0;
+
     
+}
+
+.world-container 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-flow: column;
+
+}
+
+.world-container .world-text 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-flow: column;
+    padding: 1.6rem 1.2rem;
+    gap: 15px;
+}
+
+.world-container .world-text h1 
+{
+    text-align: center;
+    color: #00A892;
+    line-height: 1.4;
+}
+
+.world-container .world-text p 
+{
+    text-align: center;
+    color: rgb(83, 83, 83);
+    font-size: 14px;
+}
+
+/* theose wordls cards */
+
+.world-cards 
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 20px;
+}
+
+.world-cards .w-cards 
+{
+    background-color: white;
+    text-align: center;
+    padding: 4rem 1rem;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+}
+
+.world-cards .w-cards img 
+{
+    width: 20%;
+}
+
+.w-cards:nth-child(2) , .w-cards:nth-child(4)
+{
+
+    position: relative;
+    top: -20px;
+   
+    
+
+}
+
+.world-cards .w-cards h1 
+
+{
+    color: #18AD99;
+    font-weight: 300;
+    font-size: 20px;
+
+}
+
+.world-cards .w-cards h4 
+{
+    color: #747d70;
+    font-weight: 200;
+}
+
+
+
+
+
+
 
 
 
@@ -404,6 +510,108 @@ transform: skew(-20deg);
 }
 
 
+/* World section */
+
+#world 
+{
+    background-color:#DFF8F7;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 3rem 0;
+
+    
+}
+
+.world-container 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-flow: column;
+
+}
+
+.world-container .world-text 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-flow: column;
+    padding: 1.6rem 1.2rem;
+    gap: 15px;
+}
+
+.world-container .world-text h1 
+{
+    text-align: center;
+    color: #00A892;
+    line-height: 1.4;
+}
+
+.world-container .world-text p 
+{
+    text-align: center;
+    color: rgb(83, 83, 83);
+    font-size: 10px;
+}
+
+/* theose wordls cards */
+
+.world-cards 
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 20px;
+}
+
+.world-cards .w-cards 
+{
+    background-color: white;
+    text-align: center;
+    padding: 4rem 1rem;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+}
+
+.world-cards .w-cards img 
+{
+    width: 20%;
+}
+
+.w-cards:nth-child(2) , .w-cards:nth-child(4)
+{
+
+    position: relative;
+    top: -20px;
+   
+    
+
+}
+
+.world-cards .w-cards h1 
+
+{
+    color: #18AD99;
+    font-weight: 300;
+
+}
+
+.world-cards .w-cards h4 
+{
+    color: #747d70;
+    font-weight: 200;
+}
+
+
     
     
     
@@ -424,6 +632,7 @@ transform: skew(-20deg);
     position: fixed;
     top: 0;
     width: 100%;
+    background-color: white;
 
 }
 
@@ -599,11 +808,109 @@ transform: skew(-20deg);
 
 
 
+/* World section */
+
+#world 
+{
+    background-color:#DFF8F7;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 3rem 0;
 
     
+}
 
+.world-container 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-flow: column;
 
 }
+
+.world-container .world-text 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-flow: column;
+    padding: 1.6rem 1.2rem;
+    gap: 15px;
+}
+
+.world-container .world-text h1 
+{
+    text-align: center;
+    color: #00A892;
+    line-height: 1.4;
+}
+
+.world-container .world-text p 
+{
+    text-align: center;
+    color: rgb(83, 83, 83);
+    font-size: 14px;
+}
+
+/* theose wordls cards */
+
+.world-cards 
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 20px;
+}
+
+.world-cards .w-cards 
+{
+    background-color: white;
+    text-align: center;
+    padding: 4rem 1rem;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+}
+
+.world-cards .w-cards img 
+{
+    width: 20%;
+}
+
+.w-cards:nth-child(2) , .w-cards:nth-child(4)
+{
+
+    position: relative;
+    top: -20px;
+   
+    
+
+}
+
+.world-cards .w-cards h1 
+
+{
+    color: #18AD99;
+    font-weight: 300;
+
+}
+
+.world-cards .w-cards h4 
+{
+    color: #747d70;
+    font-weight: 200;
+}
+
+
+ }
 
 @media (min-width: 1440px) and (max-width: 2560px) 
 {
@@ -805,5 +1112,112 @@ transform: skew(-20deg);
 }
 
 
+/* World section */
+
+#world 
+{
+    background-color:#DFF8F7;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 3rem 0;
+
+    
 }
+
+.world-container 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-flow: row;
+    padding: 50px;
+
+}
+
+.world-container .world-text 
+{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 50%;
+    flex-flow: column;
+    padding: 1.6rem 1.2rem;
+    gap: 15px;
+    height: 65vh;
+}
+
+.world-container .world-text h1 
+{
+    text-align: center;
+    color: #00A892;
+    line-height: 1.4;
+}
+
+.world-container .world-text p 
+{
+    text-align: center;
+    color: rgb(83, 83, 83);
+    font-size: 14px;
+}
+
+/* theose wordls cards */
+
+.world-cards 
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 20px;
+}
+
+.world-cards .w-cards 
+{
+    background-color: white;
+    text-align: center;
+    padding: 4rem 1rem;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+}
+
+.world-cards .w-cards img 
+{
+    width: 20%;
+}
+
+.w-cards:nth-child(2) , .w-cards:nth-child(4)
+{
+
+    position: relative;
+    top: -20px;
+    
+    
+
+}
+
+.world-cards .w-cards h1 
+
+{
+    color: #18AD99;
+    font-weight: 300;
+
+}
+
+.world-cards .w-cards h4 
+{
+    color: #747d70;
+    font-weight: 200;
+}
+
+
+}
+
+
+
 
