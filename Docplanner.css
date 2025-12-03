@@ -34,11 +34,11 @@ body
     align-items: center;
     flex-flow: row wrap;
     height: 10vh;
-    background-color: rgb(255, 255, 255);
     z-index: 999;
     position: fixed;
     top: 0;
     width: 100%;
+    background-color: white;
 
 }
 
@@ -88,7 +88,6 @@ transform: skew(-20deg);
 #hero-section 
 {
     height: 77vh;
-    background-color: blanchedalmond;
     margin-top:10vh;
     display: flex;
     justify-content: center;
@@ -135,6 +134,81 @@ transform: skew(-20deg);
 {
     padding: 10px;
     
+}
+
+
+/* Lets get started with */
+
+
+#Offers 
+{
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 30px 0px;
+}
+
+.offers-container 
+{
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-flow: column;
+    gap: 20px;
+}
+
+.offers-container .offers-card 
+{
+    background-color: rgba(255, 228, 196, 0.682);
+    width: 80%;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    flex-flow: column;
+    gap: 30px;
+    border-radius: 10px;
+}
+.offers-container .offers-card:first-child 
+{
+    background-color: #00CCB1;
+} 
+.offers-container .offers-card:nth-child(2) 
+{
+    background-color: #3D83DF;
+
+} 
+.offers-container .offers-card:nth-child(3) 
+{
+  background-color: #1B2734;
+}
+
+.offers-container .offers-card h1 
+{
+    font-size: 30px;
+    color: white;
+}
+
+.offers-container .offers-card p
+{
+    font-size: 20px;
+    color: white;
+}
+
+.offers-container .offers-card .cta 
+{
+    width: 100%;
+    text-align: center;
+}
+.offers-container .offers-card .cta a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
 }
 
 
@@ -206,7 +280,6 @@ transform: skew(-20deg);
 #hero-section 
 {
     height: 77vh;
-    background-color: blanchedalmond;
     margin-top:10vh;
     display: flex;
     justify-content: center;
@@ -254,6 +327,82 @@ transform: skew(-20deg);
     padding: 10px;
     text-align: center;
 }
+
+
+/* Lets get started with */
+
+
+#Offers 
+{
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 30px 0px;
+}
+
+.offers-container 
+{
+    width: 96%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-flow: row;
+    gap: 20px;
+}
+
+.offers-container .offers-card 
+{
+    background-color: rgba(255, 228, 196, 0.682);
+    width: 80%;
+    padding: 40px 30px;
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    flex-flow: column;
+    gap: 30px;
+    border-radius: 10px;
+}
+.offers-container .offers-card:first-child 
+{
+    background-color: #00CCB1;
+} 
+.offers-container .offers-card:nth-child(2) 
+{
+    background-color: #3D83DF;
+
+} 
+.offers-container .offers-card:nth-child(3) 
+{
+  background-color: #1B2734;
+}
+
+.offers-container .offers-card h1 
+{
+    font-size: 30px;
+    color: white;
+}
+
+.offers-container .offers-card p
+{
+    font-size: 20px;
+    color: white;
+}
+
+.offers-container .offers-card .cta 
+{
+    width: 100%;
+    text-align: center;
+}
+.offers-container .offers-card .cta a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+}
+
 
     
     
@@ -324,7 +473,6 @@ transform: skew(-20deg);
 #hero-section 
 {
     height: 77vh;
-    background-color: blanchedalmond;
     margin-top:10vh;
     display: flex;
     justify-content: center;
@@ -375,6 +523,82 @@ transform: skew(-20deg);
 }
 
 
+/* Lets get started with */
+
+
+#Offers 
+{
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 8rem 0px;
+}
+
+.offers-container 
+{
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-flow: column;
+    gap: 20px;
+}
+
+.offers-container .offers-card 
+{
+    background-color: rgba(255, 228, 196, 0.682);
+    width: 80%;
+    padding: 40px 50px;
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    flex-flow: column;
+    gap: 30px;
+    border-radius: 10px;
+}
+.offers-container .offers-card:first-child 
+{
+    background-color: #00CCB1;
+} 
+.offers-container .offers-card:nth-child(2) 
+{
+    background-color: #3D83DF;
+
+} 
+.offers-container .offers-card:nth-child(3) 
+{
+  background-color: #1B2734;
+}
+
+.offers-container .offers-card h1 
+{
+    font-size: 30px;
+    color: white;
+}
+
+.offers-container .offers-card p
+{
+    font-size: 20px;
+    color: white;
+}
+
+.offers-container .offers-card .cta 
+{
+    width: 100%;
+    text-align: center;
+}
+.offers-container .offers-card .cta a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+}
+
+
+
 
     
 
@@ -396,6 +620,8 @@ transform: skew(-20deg);
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 999;
+    background-color: white;
 
 }
 
@@ -447,7 +673,7 @@ transform: skew(-20deg);
 #hero-section 
 {
     height: 77vh;
-    background-color: blanchedalmond;
+    background-color: rgb(255, 255, 255);
     margin-top:10vh;
     display: flex;
     justify-content: center;
@@ -499,9 +725,85 @@ transform: skew(-20deg);
 {
     padding: 5px;
     text-align: left;
-    font-size: 25px;
+    font-size: 20px;
     
 }
+
+
+/* Lets get started with */
+
+
+#Offers 
+{
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 8rem 0px;
+}
+
+.offers-container 
+{
+    width: 65%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-flow: row nowrap;
+    gap: 20px;
+}
+
+.offers-container .offers-card 
+{
+    background-color: rgba(255, 228, 196, 0.682);
+    width: 50%;
+    padding: 40px 50px;
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    flex-flow: column;
+    gap: 30px;
+    border-radius: 10px;
+}
+.offers-container .offers-card:first-child 
+{
+    background-color: #00CCB1;
+} 
+.offers-container .offers-card:nth-child(2) 
+{
+    background-color: #3D83DF;
+
+} 
+.offers-container .offers-card:nth-child(3) 
+{
+  background-color: #1B2734;
+}
+
+.offers-container .offers-card h1 
+{
+    font-size: 30px;
+    color: white;
+}
+
+.offers-container .offers-card p
+{
+    font-size: 20px;
+    color: white;
+}
+
+.offers-container .offers-card .cta 
+{
+    width: 100%;
+    text-align: center;
+}
+.offers-container .offers-card .cta a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+}
+
 
 }
 
