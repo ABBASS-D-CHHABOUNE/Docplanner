@@ -1,0 +1,507 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+:root 
+{
+     --text-color--:var(#19D1B9);
+}
+body 
+{
+    
+
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+    /* Your styles for small mobile screens */
+    
+
+#mainheader 
+{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+#mainheader .logo 
+{
+    width: fit-content;
+    text-align: center;
+    transition-duration: 2s;
+}
+
+#mainheader .logo:hover 
+{
+transform: skew(-20deg);
+}
+#mainheader nav 
+{
+    display: none;
+}
+
+#mainheader nav ul
+{
+    list-style: none;
+    
+}
+
+#mainheader nav ul li 
+{
+    display: inline;  
+    padding: 0 10px;
+}
+#mainheader nav ul li a
+{
+    text-decoration: none;  
+    transition-duration: .5s;
+    color: #606060e4;
+    
+}
+
+#mainheader nav ul li a:hover
+{
+    color: #14AE9A;
+
+}
+
+/* Hero Section */
+
+#hero-section 
+{
+    height: 77vh;
+    background-color: blanchedalmond;
+    margin-top:10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.hero-containers 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+
+.hero-containers .image-container 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    width: 100%;
+    gap: 10px;
+}
+
+.hero-containers .image-container h1
+{
+    text-align: center;
+    font-size: 20px;
+}
+
+.hero-containers .text-content 
+{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-flow: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.hero-containers .text-content p 
+{
+    padding: 10px;
+    
+}
+
+
+
+    
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) 
+{
+
+
+    #mainheader 
+{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    height: 10vh;
+
+}
+
+#mainheader .logo 
+{
+    width: fit-content;
+    text-align: center;
+    transition-duration: 2s;
+}
+
+#mainheader .logo:hover 
+{
+transform: skew(-20deg);
+}
+#mainheader nav 
+{
+    display: inline;
+}
+
+#mainheader nav ul
+{
+    list-style: none;
+    
+}
+
+#mainheader nav ul li 
+{
+    display: inline;  
+    padding: 0 10px;
+}
+#mainheader nav ul li a
+{
+    text-decoration: none;  
+    transition-duration: .5s;
+    color: #606060e4;
+    
+}
+
+#mainheader nav ul li a:hover
+{
+    color: #14AE9A;
+
+}
+
+
+/* Hero Section */
+
+#hero-section 
+{
+    height: 77vh;
+    background-color: blanchedalmond;
+    margin-top:10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.hero-containers 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+
+.hero-containers .image-container 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    width: 100%;
+    gap: 10px;
+}
+
+.hero-containers .image-container h1
+{
+    text-align: center;
+    font-size: 20px;
+}
+
+.hero-containers .text-content 
+{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-flow: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.hero-containers .text-content p 
+{
+    padding: 10px;
+    text-align: center;
+}
+
+    
+    
+    
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) 
+{    /* Your styles for small mobile screens */
+    
+
+#mainheader 
+{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    height: 10vh;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+#mainheader .logo 
+{
+    width: fit-content;
+    text-align: center;
+    transition-duration: 2s;
+}
+
+#mainheader .logo:hover 
+{
+transform: skew(-20deg);
+}
+#mainheader nav 
+{
+    display: inline;
+}
+
+#mainheader nav ul
+{
+    list-style: none;
+    
+}
+
+#mainheader nav ul li 
+{
+    display: inline;  
+    padding: 0 10px;
+}
+#mainheader nav ul li a
+{
+    text-decoration: none;  
+    transition-duration: .5s;
+    color: #606060e4;
+    
+}
+
+#mainheader nav ul li a:hover
+{
+    color: #14AE9A;
+
+}
+
+/* Hero Section */
+
+#hero-section 
+{
+    height: 77vh;
+    background-color: blanchedalmond;
+    margin-top:10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.hero-containers 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+
+.hero-containers .image-container 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    width: 100%;
+    gap: 10px;
+}
+
+.hero-containers .image-container h1
+{
+    text-align: center;
+    font-size: 30px;
+}
+
+.hero-containers .text-content 
+{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-flow: row;
+    gap: 10px;
+    width: 70%;
+}
+
+.hero-containers .text-content p 
+{
+    padding: 10px;
+    text-align: left;
+    
+}
+
+
+
+    
+
+
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) 
+{
+
+
+    
+    #mainheader 
+{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    height: 10vh;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+}
+
+#mainheader .logo 
+{
+    width: fit-content;
+    text-align: center;
+    transition-duration: 2s;
+}
+
+#mainheader .logo:hover 
+{
+transform: skew(-20deg);
+}
+#mainheader nav 
+{
+    display: inline;
+}
+
+#mainheader nav ul
+{
+    list-style: none;
+    
+}
+
+#mainheader nav ul li 
+{
+    display: inline;  
+    padding: 0 10px;
+}
+#mainheader nav ul li a
+{
+    text-decoration: none;  
+    transition-duration: .5s;
+    color: #606060e4;
+    
+}
+
+#mainheader nav ul li a:hover
+{
+    color: #14AE9A;
+
+}
+
+
+
+/* Hero Section */
+
+#hero-section 
+{
+    height: 77vh;
+    background-color: blanchedalmond;
+    margin-top:10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.hero-containers 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+
+.hero-containers .image-container 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    width: 100%;
+    gap: 10px;
+}
+
+.hero-containers .image-container img
+{
+    width: 5%;
+}
+
+.hero-containers .image-container h1
+{
+    text-align: center;
+    font-size: 30px;
+}
+
+.hero-containers .text-content 
+{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-flow: row;
+    gap: 10px;
+    width: 70%;
+}
+
+.hero-containers .text-content p 
+{
+    padding: 5px;
+    text-align: left;
+    font-size: 25px;
+    
+}
+
+}
+
