@@ -211,6 +211,67 @@ transform: skew(-20deg);
     font-size: 23px;
 }
 
+/* Global company */ 
+#Global 
+{
+    height: auto;
+    padding: 30px 0px;
+    width: 100%;
+}
+.global-container 
+{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    gap: 30px;
+}
+.global-container .global-headline 
+{
+    width: 100%;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.global-container .global-headline h1 
+{
+    text-align: center;
+    color: #1DB29E;
+    font-weight: 300;
+}
+
+/* grid  brands */
+
+.global-container .global-brands 
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    flex-flow: column wrap;
+    gap: 20px;
+    padding: 10px 30px;
+}
+
+.global-container .global-brands .brands a 
+{
+    filter: brightness(60%);
+
+}
+
+.global-container .global-brands .brands a:hover 
+{
+    filter: brightness(100%);
+
+}
+
+
+
+
+
+
 
 
 /* World section */
@@ -314,6 +375,8 @@ transform: skew(-20deg);
     color: #747d70;
     font-weight: 200;
 }
+
+
 
 /* Travels City */
 
@@ -680,6 +743,62 @@ transform: skew(-20deg);
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 23px;
+}
+/* Global company */ 
+#Global 
+{
+    height: auto;
+    padding: 30px 0px;
+    width: 100%;
+}
+.global-container 
+{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    gap: 30px;
+    margin: 0px 5rem;
+}
+.global-container .global-headline 
+{
+    width: 100%;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.global-container .global-headline h1 
+{
+    text-align: center;
+    color: #1DB29E;
+    font-weight: 300;
+}
+
+/* grid  brands */
+
+.global-container .global-brands 
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    flex-flow: column wrap;
+    gap: 20px;
+    padding: 10px 30px;
+}
+
+.global-container .global-brands .brands a 
+{
+    filter: brightness(60%);
+
+}
+
+.global-container .global-brands .brands a:hover 
+{
+    filter: brightness(100%);
+
 }
 
 
@@ -1145,6 +1264,63 @@ transform: skew(-20deg);
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 23px;
+}
+
+/* Global company */ 
+#Global 
+{
+    height: auto;
+    padding: 30px 0px;
+    width: 100%;
+}
+.global-container 
+{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    gap: 30px;
+    margin: 0px 5rem;
+}
+.global-container .global-headline 
+{
+    width: 100%;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.global-container .global-headline h1 
+{
+    text-align: center;
+    color: #1DB29E;
+    font-weight: 300;
+}
+
+/* grid  brands */
+
+.global-container .global-brands 
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    flex-flow: column wrap;
+    gap: 20px;
+    padding: 10px 30px;
+}
+
+.global-container .global-brands .brands a 
+{
+    filter: brightness(60%);
+
+}
+
+.global-container .global-brands .brands a:hover 
+{
+    filter: brightness(100%);
+
 }
 
 
@@ -1627,6 +1803,62 @@ transform: skew(-20deg);
     font-size: 23px;
 }
 
+/* Global company */ 
+#Global 
+{
+    height: auto;
+    padding: 30px 0px;
+    width: 100%;
+}
+.global-container 
+{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    gap: 30px;
+    margin: 0px 13rem;
+}
+.global-container .global-headline 
+{
+    width: 100%;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.global-container .global-headline h1 
+{
+    text-align: center;
+    color: #1DB29E;
+    font-weight: 300;
+}
+
+/* grid  brands */
+
+.global-container .global-brands 
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    flex-flow: column wrap;
+    gap: 20px;
+    padding: 10px 30px;
+}
+
+.global-container .global-brands .brands a 
+{
+    filter: brightness(60%);
+
+}
+
+.global-container .global-brands .brands a:hover 
+{
+    filter: brightness(100%);
+
+}
 
 /* World section */
 
